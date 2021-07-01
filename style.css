@@ -1,0 +1,9 @@
+/* *********** Temporary styles to see where elements are **********/
+
+*{
+    padding: 0.5rem;
+    border: 1px solid rgb(90,90,90);
+}
+
+html { border: none;}
+body { border: none;}
