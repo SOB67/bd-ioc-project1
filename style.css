@@ -9,7 +9,10 @@ html { border: none;}
 body { border: none;}
 
 
+header {
+    background-image: url('https://source.unsplash.com/R1ql7fk3I1Y');
 
+}
 
 /* Universal Typography Styles */
 /* Don't include h1 as there is only one per page and they are usually specifically styled */
@@ -101,7 +104,7 @@ margin-bottom: 0;
 
 .bg-image, 
 [class*=bg-image] {
-background-image: url(‘’);
+/* background-image: url(‘’); */
 background-color: rgb(240,240,240);
 background-size: cover;
 background-position: center;
@@ -110,6 +113,10 @@ background-repeat: no-repeat;
 /* Use a placeholder image when first styling */
 
 /* Image Styling Utility Classes */
+
+.tall-100 {
+    min-height: 100vh;
+}
 
 .portrait-tall {
 padding-bottom: 175%;
@@ -147,3 +154,9 @@ padding-bottom: 56%;
 .bg-pos-t-l { background-position: 10% 10%; }
 .bg-pos-b-r { background-position: 85% 85%; }
 
+
+/*  Header and Footer styles */
+
+.header-nav {
+    max-height: 10vh;
+}
